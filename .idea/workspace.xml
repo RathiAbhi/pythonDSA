@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37a90fcf-b213-429b-8a87-569055ca6238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestAverageGrade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BishopMoves.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MagicPotion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MostFrequentIpAddress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WalkingRobot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountLengthOfCycle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecimalConversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,5 +56,16 @@
       <updated>1735818084732</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
