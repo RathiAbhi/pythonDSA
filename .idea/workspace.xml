@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37a90fcf-b213-429b-8a87-569055ca6238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CountLengthOfCycle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecimalConversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircularDeque.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
