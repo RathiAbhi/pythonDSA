@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37a90fcf-b213-429b-8a87-569055ca6238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DistanceBetweenStrings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DotProduct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FirstNonRepeatingCharacter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Power.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashMap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestUniformSubstring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Powerof10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimeFactorization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
