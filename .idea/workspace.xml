@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37a90fcf-b213-429b-8a87-569055ca6238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RunLengthEncoding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSmallest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SnowPack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SquareRoot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Staircase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrappingRainWater.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UniqueTuples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
