@@ -12,7 +12,7 @@ class SnowPack:
         leftMax = [0 for i in range(len(heights))]
         rightMax = [0 for i in range(len(heights))]
         n = len(heights)
-        leftMax[0] = 0
+        leftMax[0] = heights[0]
         for i in range(1,n):
             leftMax[i] = max(heights[i],leftMax[i-1])
 

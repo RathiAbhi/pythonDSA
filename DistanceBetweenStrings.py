@@ -4,6 +4,7 @@ import sys
 class DistanceBetweenStrings:
     def distanceBetweenStrings(self, document:str, word1:str, word2:str)->int:
         words = document.lower().split()
+
         currentWordIndex = 0
         wordOneMidPointIndex = 0
         wordTwoMidPointIndex = 0
@@ -19,7 +20,7 @@ class DistanceBetweenStrings:
             if wordOneMidPointIndex>0 and wordTwoMidPointIndex>0:
                 shortDist = min(shortDist, abs(wordTwoMidPointIndex-wordOneMidPointIndex))
 
-            currentWordIndex += len(word)+1 # adding 1 assuming there might have been 1 space between words
+            currentWordIndex += len(word)+1 #assuming there would have been 1 space between the words
 
         print(word1,word2,shortDist)
         return shortDist

@@ -14,7 +14,6 @@ class HashMap:
     def put(self,key,value):
         index = self.hash(key)
         for pair in self.table[index]:
-            #print(f"key = {pair[0]} and value = {pair[1]}")
             if pair[0]==key:
                 pair[1] = value
                 return
@@ -31,7 +30,7 @@ class HashMap:
 
     def remove(self,key):
         index = self.hash(key)
-        for i, pair in enumerate(self.table[index]):
+        for i,pair in enumerate(self.table[index]):
             if pair[0]==key:
                 del self.table[index][i]
                 return
@@ -46,4 +45,3 @@ hashmap.put(2,1)
 print(hashmap.get(2))
 hashmap.remove(2)
 print(hashmap.get(2))
-

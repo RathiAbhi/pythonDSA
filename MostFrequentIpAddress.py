@@ -1,3 +1,6 @@
+import sys
+
+
 class MostFrequentIpAddress:
     """
     Problem statement: Given a list of logs with IP addresses in the following format.
@@ -18,17 +21,18 @@ class MostFrequentIpAddress:
     """
     def mostFrequentIpAddress(self, lines: list[str]) -> str:
         ans = {}
-        maxCount = 0
-        for address in lines:
-            ip = address[:8]
-            ans[ip] = ans.get(ip,0) + 1
-            maxCount = max(maxCount,ans[ip])
+        maxIp = -sys.maxsize
+        for line in lines:
+            s = line[:8]
+            ans[s] = ans.get(s,0) + 1
+            maxIp = max(maxIp,ans[s])
 
-        maxIp = [Ip for Ip, count in ans.items() if count==maxCount]
-        if len(maxIp)>1:
-            return ','.join(sorted(maxIp))
+        maxIps = [Ip for Ip,Count in ans.items() if ans[Ip]==maxIp]
+        #print(maxIps)
+        if len(maxIps)>1:
+            return ",".join(sorted(maxIps))
         else:
-            return maxIp[0]
+            return maxIps[0]
 
 
     def main(self):

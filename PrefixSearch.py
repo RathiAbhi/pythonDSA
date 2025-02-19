@@ -6,7 +6,7 @@ class PrefixSearch:
         ans = []
         n = len(prefix)
         i = 0
-        while i < len(word)-n:
+        while i<len(word)-n:
             if word[i:i+n]==prefix:
                 ans.append(i)
                 i += n

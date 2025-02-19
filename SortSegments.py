@@ -28,14 +28,14 @@ class SortSegments:
         all_ends = set(segmentMap.values())
 
         start = (all_starts - all_ends).pop()
+        sortedSegment = []
 
-        sortedPath = []
         while start in segmentMap:
             end = segmentMap[start]
-            sortedPath.append([start,end])
+            sortedSegment.append([start,end])
             start = end
 
-        return sortedPath
+        return sortedSegment
 
     def main(self):
         if self.sortSegments([[4,5],[11,9],[9,4],[5,6],[6,1]])==[[11,9],[9,4],[4,5],[5,6],[6,1]]:

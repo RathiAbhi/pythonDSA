@@ -12,7 +12,6 @@ class Pangrams:
             if char not in s:
                 res += char
 
-        print(res)
         return res
 
     def main(self):

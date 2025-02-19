@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37a90fcf-b213-429b-8a87-569055ca6238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RandomInterview.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleLinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WaterBasin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Election.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestAverageGrade.py" beforeDir="false" afterPath="$PROJECT_DIR$/BestAverageGrade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BishopMoves.py" beforeDir="false" afterPath="$PROJECT_DIR$/BishopMoves.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountLengthOfCycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/CountLengthOfCycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecimalConversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/DecimalConversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceBetweenStrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceBetweenStrings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/HashMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LongestUniformSubstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/LongestUniformSubstring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LowestPrice.py" beforeDir="false" afterPath="$PROJECT_DIR$/LowestPrice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicPotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/MagicPotion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MostFrequentIpAddress.py" beforeDir="false" afterPath="$PROJECT_DIR$/MostFrequentIpAddress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OptimalPath.py" beforeDir="false" afterPath="$PROJECT_DIR$/OptimalPath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pangrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pangrams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PascalTriangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/PascalTriangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrefixSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrefixSearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeFactorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeFactorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/SearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmallestNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmallestNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnowPack.py" beforeDir="false" afterPath="$PROJECT_DIR$/SnowPack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortSegments.py" beforeDir="false" afterPath="$PROJECT_DIR$/SortSegments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SquareRoot.py" beforeDir="false" afterPath="$PROJECT_DIR$/SquareRoot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staircase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Staircase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WalkingRobot.py" beforeDir="false" afterPath="$PROJECT_DIR$/WalkingRobot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +55,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/abhijeetrathi/Humantic/Code/DataStructures",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

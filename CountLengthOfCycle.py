@@ -4,8 +4,10 @@ class CountLengthOfCycle:
     follow each element to the index it points to. Find a cycle and return its length.
     No cycle is found -> -1
 
-    Logic: Maintain a set of visited indices, and keep pushing each index to set and in case there
-    is a repetition of indices, return the size of count as the length of cycle
+    Logic: Maintain a dictionary of visited indices
+    maintain the index and its position in the visiting sequence
+    when we find an already visited index, subtract this index's position
+    from total count and return
     """
 
     def countLengthOfCycleInArray(self, arr: list[int], startIndex: int) -> int:
@@ -13,17 +15,17 @@ class CountLengthOfCycle:
         if startIndex<0 or startIndex >= len(arr):
             return -1
 
-        visited = set()
-        count = 0
+        visited = {}
+        count = 1
 
         while True:
-            if startIndex >= len(arr):
+            if startIndex >= len(arr) or startIndex<0:
                 return -1
 
-            if arr[startIndex] in visited:
-                return count
+            if startIndex in visited:
+                return count - visited[startIndex]
 
-            visited.add(arr[startIndex])
+            visited[startIndex] = count
             count += 1
             startIndex = arr[startIndex]
 
@@ -44,3 +46,9 @@ class CountLengthOfCycle:
 
 count = CountLengthOfCycle()
 count.main()
+
+"""
+more optimum solution could have been the fast and slow pointer
+cycle detection. And for length, stop one, and when the other again
+comes, count that as the length of the cycle
+"""

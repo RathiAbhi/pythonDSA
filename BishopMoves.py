@@ -20,28 +20,28 @@ class BishopMoves:
     """
 
     def minMoves(self, start: list[int], end: list[int]) -> int:
-        x_start = start[0]
-        y_start = start[1]
-        x_end = end[0]
-        y_end = end[1]
+        x1 = start[0]
+        y1 = start[1]
+        x2 = end[0]
+        y2 = end[1]
 
-        if x_start == x_end and y_start == y_end:
-            return 0
-        elif abs(x_end-x_start) == abs(y_end-y_start):
+        #if the point on diff color, impossible
+        #if on same line 1, if on same color but not same line, then 2
+        if ((x1+y1)%2)!=((x2+y2)%2):
+             return -1
+        elif abs(y2-y1)==abs(x2-x1):
             return 1
-        elif (x_start % 2 == y_start % 2) != (x_end % 2 == y_end % 2):
-            return -1
         else:
             return 2
 
     def totalMoves(self, start: list[int]) -> int:
-        row = start[0]
-        col = start[1]
+        x = start[0]
+        y = start[1]
 
-        topLeft = min(row-1, col-1)
-        topRight = min(row-1, 8-col)
-        bottomLeft = min(8-row, col-1)
-        bottomRight = min(8-row, 8-col)
+        topLeft = min(x-1, y-1)
+        topRight = min(x-1, 8-y)
+        bottomLeft = min(8-x, y-1)
+        bottomRight = min(8-x, 8-y)
 
         return topLeft+topRight+bottomRight+bottomLeft
     def main(self):

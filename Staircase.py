@@ -2,7 +2,7 @@ class StairCase:
     """
     There is a staircase with 'n' number of steps. A child
     walks by and wants to climb up the stairs, starting at
-    the bottom step and ascending to the top.instead
+    the bottom step and ascending to the top. Instead
     of taking 1 step at a time, it will vary between taking
     either 1, 2 or 3 steps at a time.
     Given 'n' number of steps below method should find
@@ -26,17 +26,17 @@ class StairCase:
         dp = [0 for i in range(n+1)]
         dp[0] = 1
         dp[1] = 1
-        for i in range(2,n+1):
-            dp[i] = 0
-            j = 0
-            while j<=3 and j<=i:
-                dp[i] += dp[i-j]
-                j+=1
+        dp[2] = 2
+        for i in range(3,n+1):
+            dp[i] = dp[i-1] + dp[i-2] + dp[i-3]
+
+        #print(dp)
         return dp[n]
 
     def main(self):
         if (self.stairs(3)==4 and
-        self.stairs(4)==7):
+        self.stairs(4)==7 and
+        self.stairs(5)==13):
             print("pass")
         else:
             print("fail")

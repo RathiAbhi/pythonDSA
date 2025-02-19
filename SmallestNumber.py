@@ -5,20 +5,18 @@ class SmallestNumber:
     """
     def smallest(self,arr:list[int])->int:
         n = len(arr)
-        start, end = 0, n-1
+        start,end = 0,n-1
 
         while start<end:
             if arr[start]<arr[end]:
                 return arr[start]
 
             mid = (start+end)//2
-
             if arr[mid]>arr[end]:
                 start = mid + 1
             else:
                 end = mid
 
-        print(arr[start])
         return arr[start]
 
     def main(self):

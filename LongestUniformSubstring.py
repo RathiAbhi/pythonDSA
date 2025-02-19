@@ -1,6 +1,5 @@
 import sys
 
-
 class LongestUniformSubstring:
     """
     given a string, we have to return the longest substring with same characters
@@ -10,27 +9,17 @@ class LongestUniformSubstring:
         if len(s)==1:
             return [0,1]
 
+        left,right = 0,0
         ans = [0,1]
-        maxCount = -sys.maxsize
-        count = 1
-        index = 0
 
-        for i in range(1,len(s)):
-            if s[i]==s[i-1]:
-                count += 1
+        while right<len(s):
+            if s[right]==s[left]:
+                if (right-left+1)>ans[1]:
+                    ans = [left,right-left+1]
             else:
-                if count > maxCount:
-                    maxCount = count
-                    ans[0] = index
-                    ans[1] = maxCount
-                    index = i
-                count = 1
+                left = right
 
-        if count > maxCount:
-            ans[0] = len(s) - count
-            ans[1] = count
-
-        print(ans)
+            right += 1
         return ans
 
     def main(self):

@@ -1,3 +1,6 @@
+import sys
+
+
 class BestAverageGrade:
     """
     Problem: Given a list of student test scores, find the best average grade. Each student may have more than one test score in the list.
@@ -8,13 +11,18 @@ class BestAverageGrade:
     In the end, compare the avg with max avg so far and return it at loop exit
     """
     def bestAverageGrade(self,Input)-> int:
-        score = {}
+        marks = {}
         freq = {}
-        maxAvg = 0
-        for name, marks in Input:
-            score[name] = score.get(name,0) + int(marks)
-            freq[name] = freq.get(name,0) + 1
-            maxAvg = max(maxAvg, score[name]/freq[name])
+        maxAvg = float('-inf')
+
+        for name,mark in Input:
+            mark = int(mark)
+            marks[name] = marks.get(name,0)+mark
+            freq[name] = freq.get(name,0)+1
+
+        for name in marks:
+            avg = marks[name]/freq[name]
+            maxAvg = max(avg,maxAvg)
 
         return int(maxAvg)
 

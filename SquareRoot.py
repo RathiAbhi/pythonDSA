@@ -6,8 +6,9 @@ class SquareRoot:
     """
 
     def squareRoot(self,num:int,k:int):
+        ans = 1
         start = 0
-        end,ans = num,1
+        end = num
 
         while start<=end:
             mid = (start+end)//2
@@ -16,16 +17,17 @@ class SquareRoot:
                 break
 
             if mid*mid<num:
-                start = mid+1
+                start = mid + 1
                 ans = mid
             else:
                 end = mid-1
 
+        print(ans)
         increment = 0.1
-        for i in range(0,k):
-            while (ans*ans<=num):
+        for i in range(k):
+            while ans*ans<=num:
                 ans += increment
-            ans = ans - increment
+            ans -= increment
             increment = increment/10
 
         print(ans)

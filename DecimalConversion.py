@@ -56,17 +56,14 @@ class DecimalConversion:
         #split the number at decimal and make numerator and denominator to form a fraction
         #now find the highest common divisor among them and return the final answer
         numString = str(num)
-
         if '.' not in numString:
             return numString
 
-        integerPart, decimalPart = numString.split('.')
-
+        intPart, decimalPart = numString.split('.')
         denominator = 10**len(decimalPart)
-        numerator = int(integerPart) * denominator + int(decimalPart)
+        numerator = int(intPart)*denominator + int(decimalPart)
 
         common_divisor = gcd(numerator,denominator)
-
         numerator = numerator//common_divisor
         denominator = denominator//common_divisor
 

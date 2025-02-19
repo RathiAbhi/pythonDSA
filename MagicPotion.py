@@ -19,30 +19,30 @@ class MagicPotion:
     """
 
     def minimalSteps(self, ingredients: str) -> int:
-        print(f"The input is {ingredients}")
         n = len(ingredients)
         if n==0:
             return 0
 
-        magicPotion = ""
-        magicPotion += ingredients[0]
-        i=1
-        while i<n:
-            if (i*2<=n):
-                stringToCompare = ingredients[:i]
-                remaining = ingredients[i:2*i]
+        magic = ""
+        magic += ingredients[0]
+        i = 1
 
-                if stringToCompare==remaining:
-                    magicPotion += '*'
+        while i<n:
+            if (i*2)<=n:
+                stringToCompare = ingredients[:i]
+                remainingString = ingredients[i:i*2]
+                if stringToCompare==remainingString:
+                    magic = magic + '*'
                     i = i*2
                 else:
-                    magicPotion += ingredients[i]
-                    i +=1
+                    magic = magic + ingredients[i]
+                    i += 1
             else:
-                magicPotion += ingredients[i]
-                i +=1
-        print(magicPotion)
-        return len(magicPotion)
+                magic = magic + ingredients[i]
+                i += 1
+
+        print(magic)
+        return len(magic)
 
 
     def main(self):

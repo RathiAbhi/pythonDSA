@@ -21,8 +21,9 @@ class PrimeFactorization:
                 primefactors.append(i)
                 n = n/i
 
-        if n > 2:
+        if n>2:
             primefactors.append(n)
+
         return primefactors
 
     def primeFactors(self,n:int)->list[int]:
